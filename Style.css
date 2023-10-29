@@ -1,0 +1,555 @@
+.select-a {
+    margin-left: 10px;
+    width: 200px;
+    height: 36px;
+    margin-right: 5px;
+
+    display: inline-block;
+    padding: 8px, 12px;
+    width: 150px;
+    height: 36px;
+    margin-left: 150%;
+    margin-top: 58px;
+    color: rgb(230, 229, 229);
+    background-color: #2e2d2d;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    text-align: center;
+    /* color: white; */
+}
+
+.select-a:hover {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.select {
+    display: inline-block;
+    padding: 8px, 12px;
+    width: 150px;
+    height: 36px;
+    margin-left: 150%;
+    margin-top: 58px;
+    color: rgb(230, 229, 229);
+    background-color: #2e2d2d;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    text-align: center;
+    /* color: white; */
+}
+
+.select:hover {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.submitButton {
+    background: transparent;
+    color: rgb(29, 29, 29);
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 18px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    border-radius: 13px;
+}
+
+.submitButton:hover {
+    background-color: rgb(47, 49, 49);
+    color: white;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.view {
+    margin-right: 500px;
+    background: transparent;
+    color: rgb(29, 29, 29);
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 17px;
+    /* letter-spacing: 2px; */
+    padding: 5px 30px;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    cursor: pointer;
+    display: inline-block;
+    /* margin-left: 150%; */
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 13px;
+}
+
+.view:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.School-wise {
+    background: transparent;
+    color: rgb(29, 29, 29);
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 10px;
+    letter-spacing: 1.02px;
+    padding: 7px 30px;
+    text-transform: uppercase;
+    /* letter-spacing: .3rem; */
+    cursor: pointer;
+    display: inline-block;
+    margin: 30px 30px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    border-radius: 13px;
+}
+
+.School-wise:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.School-wise:active {
+    opacity: 0.5;
+}
+
+.Department-wise {
+    background: transparent;
+    color: rgb(29, 29, 29);
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 10px;
+    letter-spacing: 1.02px;
+    padding: 7px 30px;
+    text-transform: uppercase;
+    /* letter-spacing: .3rem; */
+    cursor: pointer;
+    display: inline-block;
+    margin: 30px 30px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    border-radius: 13px;
+}
+
+.Department-wise:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.Department-wise:active {
+    opacity: 0.5;
+}
+
+.Program-wise {
+    background: transparent;
+    color: rgb(29, 29, 29);
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 10px;
+    letter-spacing: 1.02px;
+    padding: 7px 30px;
+    text-transform: uppercase;
+    /* letter-spacing: .3rem; */
+    cursor: pointer;
+    display: inline-block;
+    margin: 30px 30px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    border-radius: 13px;
+}
+
+.Program-wise:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.Program-wise:active {
+    opacity: 0.5;
+}
+
+.courseWiseView:hover {
+    background: linear-gradient(90deg, #87CEFA, #00BFFF);
+}
+
+.courseWiseView:active {
+    opacity: 0.5;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+}
+
+.row2 {
+    /* display: flex; */
+    margin-left: 25px;
+}
+
+.rectangle {
+    height: 30px;
+    width: 100%;
+    background-color: rgba(38, 93, 195, 0.653);
+}
+
+.text_of_headers {
+    padding-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+/* .course_outline_top {
+    margin-left: 120px;
+} */
+
+.course_outline_head {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* margin-left: 320px; */
+    /* margin-right: 320px; */
+    width: 60%;
+    height: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    table-layout: fixed;
+}
+
+th,
+td {
+    border: 2px solid black;
+    width: 100%;
+    text-align: left;
+    padding: px;
+}
+
+.course_description {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* margin-left: 320px; */
+    /* margin-right: 320px; */
+    width: 60%;
+    height: 100%;
+}
+
+.course_objective {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* margin-left: 320px; */
+    /* margin-right: 320px; */
+    width: 60%;
+    height: 100%;
+}
+
+.course_policy {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* margin-left: 320px; */
+    /* margin-right: 320px; */
+    width: 60%;
+    height: 100%;
+}
+
+.academic_dishonesty {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* margin-left: 320px; */
+    /* margin-right: 320px; */
+    width: 60%;
+    height: 100%;
+}
+
+.student_with_disability_and_stress {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* margin-left: 320px; */
+    /* margin-right: 320px; */
+    width: 60%;
+    height: 100%;
+}
+
+.non_discremination_policy {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* margin-left: 320px; */
+    /* margin-right: 320px; */
+    width: 60%;
+    height: 100%;
+}
+
+.course_content {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* margin-left: 320px; */
+    /* margin-right: 320px; */
+    width: 60%;
+    height: 100%;
+}
+
+.course_learning_outcome_matrix {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* margin-left: 320px; */
+    /* margin-right: 320px; */
+    width: 60%;
+    height: 100%;
+}
+
+.lesson_planning_with_mapping_of_CLO {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* margin-left: 320px; */
+    /* margin-right: 320px; */
+    width: 60%;
+    height: 100%;
+}
+
+.assessment_and_evaluation {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* margin-left: 320px; */
+    /* margin-right: 320px; */
+    width: 60%;
+    height: 100%;
+}
+
+.grades {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* margin-left: 320px; */
+    /* margin-right: 320px; */
+    width: 60%;
+    height: 100%;
+}
+
+.referance_book {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* margin-left: 320px; */
+    /* margin-right: 320px; */
+    width: 60%;
+    height: 100%;
+}
+
+.course-title {
+    width: 100%;
+    border: none;
+}
+
+.text-area {
+    width: 100%;
+}
+
+/* Question form */
+.question-form {
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+}
+
+.question-row1 {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.mark {
+    background-color: #ebebeb;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.submitButton {
+    background: transparent;
+    color: rgb(29, 29, 29);
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    cursor: pointer;
+    display: inline-block;
+    margin: 30px 30px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    border-radius: 13px;
+
+}
+
+.submitButton:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+/* / Question form */
+
+/* Calendar */
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: center;
+    min-height: 100vh;
+    background: #9B59B6;
+}
+
+.wrapper {
+    width: 450px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.wrapper header {
+    display: flex;
+    align-items: center;
+    padding: 25px 30px 10px;
+    justify-content: space-between;
+}
+
+header .icons {
+    display: flex;
+}
+
+header .icons span {
+    height: 38px;
+    width: 38px;
+    margin: 0 1px;
+    cursor: pointer;
+    color: #878787;
+    text-align: center;
+    line-height: 38px;
+    font-size: 1.9rem;
+    user-select: none;
+    border-radius: 50%;
+}
+
+.icons span:last-child {
+    margin-right: -10px;
+}
+
+header .icons span:hover {
+    background: #f2f2f2;
+}
+
+header .current-date {
+    font-size: 1.45rem;
+    font-weight: 500;
+}
+
+.calendar {
+    padding: 20px;
+}
+
+.calendar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+}
+
+.calendar .days {
+    margin-bottom: 20px;
+}
+
+.calendar li {
+    color: #333;
+    width: calc(100% / 7);
+    font-size: 1.07rem;
+}
+
+.calendar .weeks li {
+    font-weight: 500;
+    cursor: default;
+}
+
+.calendar .days li {
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    margin-top: 30px;
+}
+
+.days li.inactive {
+    color: #aaa;
+}
+
+.days li.active {
+    color: #fff;
+}
+
+.days li::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.days li.active::before {
+    background: #9B59B6;
+}
+
+.days li:not(.active):hover::before {
+    background: #f2f2f2;
+}
+
+/* / Calendar */

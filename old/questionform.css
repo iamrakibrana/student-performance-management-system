@@ -1,0 +1,45 @@
+.question-form {
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+}
+
+.question-row1 {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.mark {
+    background-color: white;
+    border: none;
+}
+
+.submitButton {
+    background: transparent;
+    color: rgb(29, 29, 29);
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    cursor: pointer;
+    display: inline-block;
+    margin: 30px 30px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    border-radius: 13px;
+
+}
+
+.submitButton:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}

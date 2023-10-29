@@ -1,0 +1,6 @@
+﻿studentID,firstName,lastName,dateOfBirth,gender,email,phone,address,departmentID,programID,password,enrollmentSemester,enrollmentYear,courseID,marks
+1111111,Sheikh,Abujar,5/7/1999,male,1111111@iub.edu.bd,125556,R-99,CSE,17,12345,summer,2019,CSE203,80
+2222222,Sadita,Ahmed,8/5/2000,female,2222222@iub.edu.bd,177789,R-52,CSE,7,12345,autumn,2018,CSE303,90
+3333333,Sanzar,Alam,8/2/1998,male,3333333@gmail.com,1235455,R-54,CSE,5,12345,winter,2017,CSE211,89.5
+4444444,Nur-E,Sadman,4/9/2001,male,4444444@gmail.com,1315456,R-100,CSE,45,12345,summer,2021,CSE213,85
+5555555,MD. Abu,Sayed,5/2/1996,male,5555555@gmail.com,1215487,R-200,CSE,87,12345,spring,2015,CSE203,88

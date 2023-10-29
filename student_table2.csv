@@ -1,0 +1,6 @@
+﻿studentID,firstName,lastName,dateOfBirth,gender,email,phone,address,departmentID,programID,password,enrollmentSemester,enrollmentYear,courseID,marks
+12345,Mo.,Salah,5/7/1999,male,12345@iub.edu.bd,125556,R-99,CSE,17,12345,summer,2019,CSE203,80
+67890,Christiano,Ronaldo,8/5/2000,male,67890@iub.edu.bd,177789,R-52,CSE,7,12345,autumn,2018,CSE303,90
+14785,Leo,Messi,8/2/1998,male,14785@gmail.com,1235455,R-54,CSE,5,12345,winter,2017,CSE211,89.5
+25896,M.,Bappe,4/9/2001,male,25896@gmail.com,1315456,R-100,CSE,45,12345,summer,2021,CSE213,85
+2314,Neymar,Jr.,5/2/1996,male,2314@gmail.com,1215487,R-200,CSE,87,12345,spring,2015,CSE203,88
